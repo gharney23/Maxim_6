@@ -1,0 +1,168 @@
+#title {font-size: 20pt;
+    position: relative;
+    overflow: hidden; 
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: (50vh, 50vh);
+font-family: cursive;}
+#cloud1 {width: 90vh;
+    height: 30vh;
+    position: relative;
+    overflow: hidden; 
+    z-index: -1;
+    padding: 10%;
+    animation-name: float1;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+overflow: hidden;}
+#cloud2 {width: 100vh;
+    height: 40vh;
+    position: relative;
+    overflow: hidden; 
+    z-index: -1;
+    padding: 10%;
+    animation-name: float1;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    overflow: hidden;}
+#cloud3 {width: 120vh;
+    height: 30vh;
+    position: relative;
+    overflow: hidden; 
+    z-index: -1;
+    padding: 10%;
+    animation-name: float1;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    overflow: hidden;}
+#cloud4 {width: 80vh;
+    height: 40vh;
+    position: relative;
+    overflow: hidden; 
+    z-index: -1;
+    padding: 10%;
+    animation-name: float1;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    overflow: hidden;}
+#cloud5 {width: 150vh;
+    height: 40vh;
+    position: relative;
+    overflow: hidden; 
+    z-index: -1;
+    padding: 10%;
+    animation-name: float1;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    overflow: hidden;}
+#cloud6 {width: 100vh;
+    height: 40vh;
+    position: relative;
+    overflow: hidden; 
+    z-index: -1;
+    padding: 10%;
+    animation-name: float1;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    overflow: hidden;}
+#cloud7 {width: 80vh;
+    height: 40vh;
+    position: relative;
+    overflow: hidden; 
+    z-index: -1;
+    padding: 10%;
+    animation-name: float1;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    overflow: hidden;}
+#cloud8 {width: 80vh;
+    height: 40vh;
+    position: relative;
+    overflow: hidden; 
+    z-index: -1;
+    padding: 10%;
+    animation-name: float1;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    overflow: hidden;}
+#cloud9 {width: 80vh;
+    height: 40vh;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+    padding: 10%;
+    animation-name: float1;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    overflow: hidden;}
+#container {top:0vh;
+left:-10vh;
+    overflow: hidden;
+    animation-name: float1;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    display: flex;
+    width: 400vh;
+    height:auto;
+    flex-direction: row;
+    position: absolute;
+    animation-delay: 0s;
+}
+#container2 {top:0vh;
+    left:-10vh;
+        overflow: hidden;
+        animation-name: float2;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        display: flex;
+        width: 400vh;
+        height:auto;
+        flex-direction: row;
+        position: absolute;
+        animation-delay: 3s;
+    }
+#container3 {top:0vh;
+        left:-10vh;
+            overflow: hidden;
+            animation-name: float3;
+            animation-duration: 15s;
+            animation-iteration-count: infinite;
+            display: flex;
+            width: 400vh;
+            height:auto;
+            flex-direction: row;
+            position: absolute;
+            animation-delay: 5s;
+        }
+@keyframes float1 {
+    0% {
+        transform: translate(-100vh, 0vh);
+    }
+
+    100% {
+        transform: translate(100vh, 0vh);
+    }
+}
+@keyframes float2 {
+    0% {
+        transform: translate(-100vh, 0vh);
+    }
+
+    100% {
+        transform: translate(100vh, 0vh);
+    }
+}
+@keyframes float3 {
+    0% {
+        transform: translate(-100vh, 0vh);
+    }
+
+    100% {
+        transform: translate(100vh, 0vh);
+    }
+}
+a {font-size: 16pt;
+    color: coral;
+    top:0vh;}

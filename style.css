@@ -6,7 +6,8 @@
     align-items: center;
     justify-content: center;
     transition: (50vh, 50vh);
-font-family: cursive;}
+font-family: cursive;
+pointer-events:none;}
 #cloud1 {width: 90vh;
     height: 30vh;
     position: relative;
@@ -16,7 +17,8 @@ font-family: cursive;}
     animation-name: float1;
     animation-duration: 30s;
     animation-iteration-count: infinite;
-overflow: hidden;}
+overflow: hidden;
+pointer-events:none;}
 #cloud2 {width: 100vh;
     height: 40vh;
     position: relative;
@@ -26,7 +28,8 @@ overflow: hidden;}
     animation-name: float1;
     animation-duration: 30s;
     animation-iteration-count: infinite;
-    overflow: hidden;}
+    overflow: hidden;
+    pointer-events:none;}
 #cloud3 {width: 120vh;
     height: 30vh;
     position: relative;
@@ -36,7 +39,8 @@ overflow: hidden;}
     animation-name: float1;
     animation-duration: 30s;
     animation-iteration-count: infinite;
-    overflow: hidden;}
+    overflow: hidden;
+    pointer-events:none;}
 #cloud4 {width: 80vh;
     height: 40vh;
     position: relative;
@@ -46,7 +50,8 @@ overflow: hidden;}
     animation-name: float1;
     animation-duration: 30s;
     animation-iteration-count: infinite;
-    overflow: hidden;}
+    overflow: hidden;
+    pointer-events:none;}
 #cloud5 {width: 150vh;
     height: 40vh;
     position: relative;
@@ -56,7 +61,8 @@ overflow: hidden;}
     animation-name: float1;
     animation-duration: 30s;
     animation-iteration-count: infinite;
-    overflow: hidden;}
+    overflow: hidden;
+    pointer-events:none;}
 #cloud6 {width: 100vh;
     height: 40vh;
     position: relative;
@@ -66,7 +72,8 @@ overflow: hidden;}
     animation-name: float1;
     animation-duration: 30s;
     animation-iteration-count: infinite;
-    overflow: hidden;}
+    overflow: hidden;
+    pointer-events:none;}
 #cloud7 {width: 80vh;
     height: 40vh;
     position: relative;
@@ -76,7 +83,8 @@ overflow: hidden;}
     animation-name: float1;
     animation-duration: 30s;
     animation-iteration-count: infinite;
-    overflow: hidden;}
+    overflow: hidden;
+    pointer-events:none;}
 #cloud8 {width: 80vh;
     height: 40vh;
     position: relative;
@@ -86,7 +94,8 @@ overflow: hidden;}
     animation-name: float1;
     animation-duration: 30s;
     animation-iteration-count: infinite;
-    overflow: hidden;}
+    overflow: hidden;
+    pointer-events:none;}
 #cloud9 {width: 80vh;
     height: 40vh;
     position: relative;
@@ -96,7 +105,8 @@ overflow: hidden;}
     animation-name: float1;
     animation-duration: 30s;
     animation-iteration-count: infinite;
-    overflow: hidden;}
+    overflow: hidden;
+    pointer-events:none;}
 #container {top:0vh;
 left:-10vh;
     overflow: hidden;
@@ -109,7 +119,7 @@ left:-10vh;
     flex-direction: row;
     position: absolute;
     animation-delay: 0s;
-}
+    pointer-events:none;}
 #container2 {top:0vh;
     left:-10vh;
         overflow: hidden;
@@ -122,7 +132,7 @@ left:-10vh;
         flex-direction: row;
         position: absolute;
         animation-delay: 3s;
-    }
+        pointer-events:none;}
 #container3 {top:0vh;
         left:-10vh;
             overflow: hidden;
@@ -135,7 +145,7 @@ left:-10vh;
             flex-direction: row;
             position: absolute;
             animation-delay: 5s;
-        }
+            pointer-events:none;  }
 @keyframes float1 {
     0% {
         transform: translate(-100vh, 0vh);
